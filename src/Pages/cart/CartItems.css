@@ -1,0 +1,27 @@
+.cartItem{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 15px auto;
+    box-shadow: 2px 1px 10px gray;
+    border-radius: 10px;
+    background: white;
+}
+.cartImage img{
+    margin: auto;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+.description{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cartQuantity{
+    width: 30px;
+}
